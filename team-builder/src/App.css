@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+label {
+  margin: .5rem;
+  font-size: 1.3rem;
+}
+input {
+  width: 10%;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: .3rem 1rem;
+  font-size: 1rem;
+  background-color: #ddd;
+
+}
+
+::placeholder {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  background-color: #222937;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.member-list {
+  background-color: lightgoldenrodyellow;
+  width: 53%;
+  margin: 4rem auto;
+  padding: 1rem;
+}
